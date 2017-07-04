@@ -1,4 +1,4 @@
-package middleware.activemq;
+package middleware.activemq.topic;
 
 import java.util.Hashtable;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package middleware.activemq;
+package middleware.activemq.topic;
 
 import javax.jms.Connection;  
 import javax.jms.ConnectionFactory;  
