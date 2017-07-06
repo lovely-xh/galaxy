@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tomcatProjectProperties>
+    <rootDir></rootDir>
+    <workDir>/work</workDir>
+    <exportSource>false</exportSource>
+    <reloadable>true</reloadable>
+    <redirectLogger>false</redirectLogger>
+    <updateXml>true</updateXml>
+    <warLocation></warLocation>
+    <extraInfo></extraInfo>
+    <mavenClasspath>true</mavenClasspath>
+    <webPath></webPath>
+    <webClassPathEntries>
+        <webClassPathEntry>/Article/build/classes</webClassPathEntry>
+        <webClassPathEntry>D:/Program Files/Java/jdk1.8.0_66/jre/lib/charsets.jar</webClassPathEntry>
+        <webClassPathEntry>D:/Program Files/Java/jdk1.8.0_66/jre/lib/ext/access-bridge-64.jar</webClassPathEntry>
+        <webClassPathEntry>D:/Program Files/Java/jdk1.8.0_66/jre/lib/ext/cldrdata.jar</webClassPathEntry>
+        <webClassPathEntry>D:/Program Files/Java/jdk1.8.0_66/jre/lib/ext/dnsns.jar</webClassPathEntry>
+        <webClassPathEntry>D:/Program Files/Java/jdk1.8.0_66/jre/lib/ext/jaccess.jar</webClassPathEntry>
+        <webClassPathEntry>D:/Program Files/Java/jdk1.8.0_66/jre/lib/ext/jfxrt.jar</webClassPathEntry>
+        <webClassPathEntry>D:/Program Files/Java/jdk1.8.0_66/jre/lib/ext/localedata.jar</webClassPathEntry>
+        <webClassPathEntry>D:/Program Files/Java/jdk1.8.0_66/jre/lib/ext/nashorn.jar</webClassPathEntry>
+        <webClassPathEntry>D:/Program Files/Java/jdk1.8.0_66/jre/lib/ext/sunec.jar</webClassPathEntry>
+        <webClassPathEntry>D:/Program Files/Java/jdk1.8.0_66/jre/lib/ext/sunjce_provider.jar</webClassPathEntry>
+        <webClassPathEntry>D:/Program Files/Java/jdk1.8.0_66/jre/lib/ext/sunmscapi.jar</webClassPathEntry>
+        <webClassPathEntry>D:/Program Files/Java/jdk1.8.0_66/jre/lib/ext/sunpkcs11.jar</webClassPathEntry>
+        <webClassPathEntry>D:/Program Files/Java/jdk1.8.0_66/jre/lib/ext/zipfs.jar</webClassPathEntry>
+        <webClassPathEntry>D:/Program Files/Java/jdk1.8.0_66/jre/lib/jce.jar</webClassPathEntry>
+        <webClassPathEntry>D:/Program Files/Java/jdk1.8.0_66/jre/lib/jfr.jar</webClassPathEntry>
+        <webClassPathEntry>D:/Program Files/Java/jdk1.8.0_66/jre/lib/jsse.jar</webClassPathEntry>
+        <webClassPathEntry>D:/Program Files/Java/jdk1.8.0_66/jre/lib/resources.jar</webClassPathEntry>
+        <webClassPathEntry>D:/Program Files/Java/jdk1.8.0_66/jre/lib/rt.jar</webClassPathEntry>
+        <webClassPathEntry>org.eclipse.jst.j2ee.internal.module.container</webClassPathEntry>
+        <webClassPathEntry>org.eclipse.jst.j2ee.internal.web.container</webClassPathEntry>
+    </webClassPathEntries>
+</tomcatProjectProperties>
