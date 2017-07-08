@@ -1,4 +1,9 @@
-F:\workspace\CDT\galaxy\src\main\java\com\galaxy\www\galaxy\CreateNodeASync.java
-F:\workspace\CDT\galaxy\src\main\java\com\galaxy\mq\Sender.java
-F:\workspace\CDT\galaxy\src\main\java\com\galaxy\www\galaxy\CreateNodeSync.java
-F:\workspace\CDT\galaxy\src\main\java\com\galaxy\www\galaxy\CreateSession.java
+E:\workplaceMe\repository\galaxy\src\main\java\middleware\zookeeper\CreateNodeASync.java
+E:\workplaceMe\repository\galaxy\src\main\java\middleware\zookeeper\CreateNodeSync.java
+E:\workplaceMe\repository\galaxy\src\main\java\middleware\activemq\queue\Producer.java
+E:\workplaceMe\repository\galaxy\src\main\java\middleware\activemq\topic\Publisher.java
+E:\workplaceMe\repository\galaxy\src\main\java\middleware\zookeeper\CreateSession.java
+E:\workplaceMe\repository\galaxy\src\main\java\main\App.java
+E:\workplaceMe\repository\galaxy\src\main\java\middleware\activemq\topic\Consumer2.java
+E:\workplaceMe\repository\galaxy\src\main\java\middleware\activemq\queue\Consumer.java
+E:\workplaceMe\repository\galaxy\src\main\java\middleware\activemq\topic\Listener.java

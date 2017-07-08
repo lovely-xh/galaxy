@@ -1,0 +1,2 @@
+System.out.println(ClassLoader.getSystemResource("log4j.properties"));
+System.out.println(ClassLoader.getSystemResource("log4j.xml"));
