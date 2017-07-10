@@ -14,8 +14,8 @@
 		<servlet-name>servlet</servlet-name>
 		<servlet-class>com.galaxy.servlet.TestServlet</servlet-class>
 		<init-param>
-			<param-name>log4j-properties-location</param-name>
-			<param-value>/WEB-INF/classes/log4j.properties</param-value>
+			<param-name>configfile</param-name>
+			<param-value>WEB-INF\log4j.properties</param-value>
 		</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
