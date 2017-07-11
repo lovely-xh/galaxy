@@ -11,12 +11,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
- 
 public class ImageServlet extends HttpServlet {
 	
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
@@ -34,7 +30,7 @@ public class ImageServlet extends HttpServlet {
 		for (int i = 0; i < 4; i++) {
 			index = random.nextInt(len);
 			graphics.setColor(new Color(random.nextInt(88), random.nextInt(188), random.nextInt(255)));
-			graphics.drawString(ch[index]+"", i*15+3, 18);
+			graphics.drawString(ch[index] + "", i * 15 + 3, 18);
 			stringBuffer.append(ch[index]);
 		}
 		

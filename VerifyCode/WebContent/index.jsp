@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
-    pageEncoding="utf-8" import="java.util.*"%>
+    pageEncoding="utf-8" import="java.util.*" info=""%>
 <%
 String path = request.getContextPath();
 //String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort()%>
@@ -7,8 +7,13 @@ String path = request.getContextPath();
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>VerifyCode</title>
 
+<%! public void jspInit() {
+		System.out.println("heihiehei");
+	}
+%>
+	
 <script type="text/javascript">
 	function reloadCode() {
 		var time = new Date().getTime();
