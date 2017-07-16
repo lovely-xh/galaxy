@@ -3,6 +3,7 @@ package com.galaxy.util;
 import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.SQLException;
 import java.util.Properties;
 
 public class ConnectionFactory {
@@ -12,7 +13,7 @@ public class ConnectionFactory {
 	private static String user;
 	private static String pwd;
 	
-	private static ConnectionFactory connectionFactory = null;
+	private static ConnectionFactory connectionFactory = new ConnectionFactory();
 	
 	private Connection connection = null;
 	
@@ -22,30 +23,26 @@ public class ConnectionFactory {
 			InputStream inStream = ConnectionFactory.class.getClassLoader()
 				.getResourceAsStream("config.properties");
 			properties.load(inStream);
+			
+			driver = properties.getProperty("driver");
+			dburl = properties.getProperty("dburl");
+			user = properties.getProperty("user");
+			pwd = properties.getProperty("password");
+			System.out.println("===========配置问件读取完成==========");
 		} catch (Exception e) {
 			System.out.println("===========配置问件读取错误==========");
 			e.printStackTrace();
 		}
-		
-		driver = properties.getProperty("driver");
-		dburl = properties.getProperty("dburl");
-		user = properties.getProperty("user");
-		pwd = properties.getProperty("password");
-		System.out.println("===========配置问件读取完成==========");
 	}
 	
 	private ConnectionFactory() {
 	}
 	
-	public ConnectionFactory getConnectionFactory() {
-		if (connectionFactory == null) {
-			connectionFactory = new ConnectionFactory();
-		}
-		
+	public static ConnectionFactory getConnectionFactory() {
 		return connectionFactory;
 	}
 	
-	public Connection connect() {
+	public Connection doConnection() {
 		try {
 			Class.forName(driver);
 			connection = DriverManager.getConnection(dburl, user, pwd);
@@ -54,5 +51,18 @@ public class ConnectionFactory {
 		}
 		
 		return connection;
+	}
+	
+	public static void main(String[] args) {
+		ConnectionFactory cFactory = ConnectionFactory.getConnectionFactory();
+		
+		Connection connection = cFactory.doConnection();
+		
+		try {
+			System.out.println(connection.getAutoCommit());
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 }
