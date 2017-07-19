@@ -25,5 +25,15 @@
 		<servlet-name>servletRefresh</servlet-name>
 		<url-pattern>/refresh</url-pattern>
 	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>servletUpload</servlet-name>
+		<servlet-class>com.galaxy.ServletUploadFile</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>servletUpload</servlet-name>
+		<url-pattern>/upload</url-pattern>
+	</servlet-mapping>
 
 </web-app>
