@@ -23,5 +23,8 @@
 	<classpathentry kind="var" path="TOMCAT_HOME/lib/jsp-api.jar"/>
 	<classpathentry kind="var" path="TOMCAT_HOME/lib/el-api.jar"/>
 	<classpathentry kind="var" path="TOMCAT_HOME/lib/annotations-api.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files/Java/jdk1.8.0_144/jre/lib/ext/servlet-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/.m2/repository/com/thoughtworks/xstream/xstream/1.4.7/xstream-1.4.7.jar"/>
+	<classpathentry kind="lib" path="D:/Tomcat/apache-tomcat-8.0.45/lib/servlet-api.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

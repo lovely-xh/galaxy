@@ -12,7 +12,7 @@
 
 	<servlet>
 		<servlet-name>servlet</servlet-name>
-		<servlet-class>com.galaxy.servlet.TestServlet</servlet-class>
+		<servlet-class>com.galaxy.servlet.ValidateServlet</servlet-class>
 		<init-param>
 			<param-name>configfile</param-name>
 			<param-value>WEB-INF\log4j.properties</param-value>
@@ -22,7 +22,7 @@
 
 	<servlet-mapping>
 		<servlet-name>servlet</servlet-name>
-		<url-pattern>/s1</url-pattern>
+		<url-pattern>/validate.do</url-pattern>
 	</servlet-mapping>
 
 </web-app>
